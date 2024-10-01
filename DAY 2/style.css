@@ -1,0 +1,21 @@
+.fcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fitems
+{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: azure;
+    border-width: 10px;
+    border-style: double;
+
+}
+
