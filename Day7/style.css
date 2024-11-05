@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding:0px;
+
+}
+
+#top{
+    background-color: lightslategray;
+    color: antiquewhite;
+    border:10px solid lightsalmon;
+}
+h1{
+    background-color: purple;
+    color: lightseagreen;
+}
+a{
+    text-decoration: none;
+}
