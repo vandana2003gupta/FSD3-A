@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Dashboard</h1>
+        <div class="user-details">
+            Welcome, Abhishek
+        </div>
+
+        <div class="top-users">
+            <h2>Fetch Top 10 GitHub Users</h2>
+            <select id="sort-by">
+                <option value="default">Default</option>
+                <option value="alphabetical">Alphabetical</option>
+                <option value="followers">Followers</option>
+            </select>
+
+            <ul id="user-list">
+                <li>mojombo</li>
+                <li>defunkt</li>
+                <li>pjhyett</li>
+                <li>wycats</li>
+                <li>ezmobious</li>
+                <li>ivey</li>
+                <li>evanphx</li>
+                <li>wayneeseguin</li>
+                <li>brynary</li>
+
+            </ul>
+        </div>
+
+        <button class="logout">Logout</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

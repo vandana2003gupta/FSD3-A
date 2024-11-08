@@ -1,0 +1,40 @@
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.user-details {
+    text-align: right;
+}
+
+.top-users {
+    margin-top: 20px;
+}
+
+.top-users h2 {
+    margin-bottom: 10px;
+}
+
+.top-users select {
+    padding: 5px;
+}
+
+.top-users ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.top-users ul li {
+    margin-bottom: 5px;
+}
+
+.logout {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
