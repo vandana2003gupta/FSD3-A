@@ -1,0 +1,28 @@
+/* style.css */
+.dashboard {
+    /* Apply overall styling here, e.g., background color, font family, font size */
+  }
+  
+  .user-details {
+    /* Style the user details section */
+  }
+  
+  .logout-button {
+    /* Style the logout button */
+  }
+  
+  .sort-dropdown {
+    /* Style the dropdown */
+  }
+  
+  .user-list {
+    /* Style the user list */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    /* Style individual list items */
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
