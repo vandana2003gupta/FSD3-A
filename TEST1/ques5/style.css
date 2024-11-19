@@ -1,32 +1,28 @@
-.login-container {
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 300px;
-    margin: 0 auto;
-}
-
-.login-container h2 {
-    text-align: center;
-}
-
-.login-container form {
-    display: flex;
-    flex-direction: column;
-}
-
-.login-container label {
-    margin-bottom: 5px;
-}
-
-.login-container input {
+/* style.css */
+.dashboard {
+    /* Apply overall styling here, e.g., background color, font family, font size */
+  }
+  
+  .user-details {
+    /* Style the user details section */
+  }
+  
+  .logout-button {
+    /* Style the logout button */
+  }
+  
+  .sort-dropdown {
+    /* Style the dropdown */
+  }
+  
+  .user-list {
+    /* Style the user list */
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    /* Style individual list items */
+    border-bottom: 1px solid #ccc;
     padding: 10px;
-    margin-bottom: 10px;
-}
-
-.login-container button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
+  }

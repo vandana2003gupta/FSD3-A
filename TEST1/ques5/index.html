@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Form</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+  <div class="dashboard">
+    <h2>Dashboard</h2>
+    <p class="user-details">Welcome Abhishek</p>
+    <button class="logout-button">Logout</button>
+    <select class="sort-dropdown">
+      <option value="default">Default</option>
+      <option value="alphabetical">Alphabetical</option>
+      <option value="most-followers">Most Followers</option>
+    </select>
+    <ul class="user-list">
+    </ul>
+  </div>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-
-            <button type="submit">Login</button>
-        </form>
-    </div>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
